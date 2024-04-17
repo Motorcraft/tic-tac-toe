@@ -11,6 +11,15 @@
   flex-wrap: wrap;
 }
 
+.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+  display: flex;
+  width: 75px;
+  height: 75px;
+  flex-wrap: wrap;
+}
+
 .square {
   height: 25px;
   width: 25px;
